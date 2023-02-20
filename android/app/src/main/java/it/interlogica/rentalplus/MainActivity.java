@@ -1,4 +1,4 @@
-package it.interlogica.rentalplus;
+package net.razshare.vue.starter;
 
 import com.getcapacitor.BridgeActivity;
 

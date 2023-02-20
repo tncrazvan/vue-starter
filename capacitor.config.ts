@@ -1,9 +1,9 @@
-import { CapacitorConfig } from "@capacitor/cli";
+import { CapacitorConfig } from '@capacitor/cli'
 
 const config: CapacitorConfig = {
-  appId: "it.interlogica.rentalplus",
-  appName: "vue-starter",
-  webDir: "dist",
-};
+  appId: 'net.razshare.vue.starter',
+  appName: 'vue-starter',
+  webDir: 'dist',
+}
 
-export default config;
+export default config
