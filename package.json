@@ -1,0 +1,50 @@
+{
+  "name": "RentalPlus",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build && npx cap sync",
+    "serve": "vite preview",
+    "start": "npx cap open android",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "format": "prettier --write ./src/**/*.{js,vue,html,ts}",
+    "prettier": "prettier --write",
+    "lint": "eslint --no-error-on-unmatched-pattern \"./src/**/*.{js,ts,vue}\"",
+    "lint:fix": "eslint --no-error-on-unmatched-pattern --fix \"./src/**/*.{js,ts,vue}\"",
+    "prelint": "npm run format"
+  },
+  "dependencies": {
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^4.6.3",
+    "@capacitor/app": "^4.1.0",
+    "@capacitor/camera": "^4.1.4",
+    "@capacitor/cli": "^4.6.3",
+    "@capacitor/core": "^4.6.3",
+    "@capacitor/haptics": "^4.0.1",
+    "@capacitor/ios": "^4.4.0",
+    "@capacitor/keyboard": "^4.0.1",
+    "@capacitor/push-notifications": "^4.1.1",
+    "@capacitor/splash-screen": "latest",
+    "@capacitor/status-bar": "^4.0.1",
+    "@mdi/js": "^7.0.96",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "autoprefixer": "^10.4.12",
+    "daisyui": "^2.33.0",
+    "eslint": "^8.26.0",
+    "postcss": "^8.4.18",
+    "prettier": "^2.7.1",
+    "prettier-plugin-vue": "^1.1.6",
+    "sass": "^1.55.0",
+    "tailwindcss": "^3.2.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0",
+    "vue-tsc": "^1.0.24"
+  }
+}
