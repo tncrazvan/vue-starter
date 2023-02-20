@@ -4,7 +4,6 @@ import { SplashScreen } from '@capacitor/splash-screen'
 import Counter from '@components/Counter.vue'
 import { onMounted } from 'vue'
 
-//TODO: i commenti "@ts-"" non sembano funzionare, se qualcuno sa come aggiustarli faccia pure
 //@ts-ignore
 if (window.cordova) {
   onMounted(SplashScreen.hide)
@@ -18,17 +17,6 @@ if (window.cordova) {
       })
     }
   })
-  // onMount(SplashScreen.hide)
-  // onMount(async () => {
-  //   if (await register()) {
-  //     listen({
-  //       onregistration: token => console.log('token', { token }),
-  //       onregistrationerror: error => console.log('token', { error }),
-  //       onaction: action => console.log('action', { action }),
-  //       onnotification: notification => console.log('notification', { notification }),
-  //     })
-  //   }
-  // })
 }
 </script>
 
